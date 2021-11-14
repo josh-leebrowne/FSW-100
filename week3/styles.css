@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+}
+
+div > h1 {
+    color:darkgreen;
+}
+
+#sub {
+    color:black;
+}
+
+.headline {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+.paragraph {
+   line-height:25px;
+   text-align: justify;
+   float: none;
+}
+
+#the-onion {
+    text-decoration:none;
+}
+#the-onion:hover {
+    text-decoration:underline;
+}
+
+#youLike {
+    text-transform:uppercase;
+}
+#picture {
+    float: left;
+    padding-right: 1cm;
+}
+
+
