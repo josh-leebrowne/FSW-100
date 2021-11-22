@@ -1,0 +1,62 @@
+.body {
+    background-color: rgb(9, 54, 9);
+}
+
+div.navbar {
+    position: fixed;
+    width: 100%;
+    margin: -20px 10px 10px 10px;
+    background-color: #d4b112;
+    text-align: center;
+    border: solid #332404;
+}
+
+#bears, #beets, #battlestar {
+    margin: 0px 0px 0px 300px;
+  
+}
+
+.blog-title{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.blog {
+    border: solid #4d360b;
+    background-color: burlywood;
+    padding: 50px;
+    margin: 50px;
+
+}
+
+.title {
+    text-align: left;
+    padding-left: 500px;
+}
+
+.date {
+    text-align: left;
+    padding-left: 500px;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+.para {
+    float: right;
+    padding: 0px 1650px 0px 0px;
+    margin: 0px 0px 0px 300px;
+    position: relative;
+    bottom: 250px;
+    left: 200px;
+    
+}
+
+
+
