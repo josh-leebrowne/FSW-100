@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color:rgb(100, 172, 100);
+}
+
+.box {
+    width: 300px;
+    height: 175px;
+    border: black solid 1px;
+    background-color: rgb(202, 118, 202);
+    margin: 20px auto 20px auto;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+    
+#box1:hover {
+    background-color: rgb(43, 199, 219);
+    width: 400px;
+}
+
+#box2:hover {
+    height: 400px;
+    background-color: rgb(43, 199, 219);
+}
+
+#box3:hover {
+    border-radius: 200px;
+    background-color: rgb(43, 199, 219);
+}
+
+#box4:hover {
+     border: rgb(43, 199, 219) solid 10px;
+}
+
+#box5:hover {
+    opacity: 0.0;
+}
+
+#box6:hover {
+    box-shadow: 10px 10px 10px rgb(43, 199, 219);
+}
