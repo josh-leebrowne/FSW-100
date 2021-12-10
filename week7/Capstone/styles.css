@@ -1,0 +1,421 @@
+html {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+
+.navbar {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(65, 7, 7);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border: solid black 1px;
+    box-shadow: black 10px 10px 10px 10px;
+}
+
+.navbar > a {
+    visibility: hidden;
+    color: white;
+    width: 150px;
+    border: solid black 1px;
+}
+
+.navbar:hover {
+    width: 400px;
+    color: white;
+}
+
+.navbar:hover > a {
+    background-color: #292926;
+    width: 150px;
+    visibility:inherit;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+header {
+    background-color: rgba(102, 95, 95, 0.801);
+}
+
+#title-span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    box-shadow: rgb(112, 1, 1) 5px 5px 5px;
+}
+
+#title-span > img {
+    width: 400px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+#title-span > p {
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: rgba(102, 95, 95, 0.801) solid 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.product-img {
+    width: 350px;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: black 2px solid;
+    padding: 1em;
+    box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+    background-color: rgb(12, 11, 11);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: solid black 5px;
+}
+
+.contactUs {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 4, 1fr;
+    justify-content: center;
+}
+
+.contactUs > h3 {
+    text-decoration: underline;
+}
+
+#contact1 {
+    grid-row: 1/2;
+}
+
+#contact2{
+    grid-row: 2/3;
+}
+
+#contact3{
+    grid-row: 3/4;
+}
+
+#contact2{
+    grid-row: 4/5;
+}
+
+
+.aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(102, 95, 95, 0.801);
+    color: black;
+    box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+}
+
+@media only screen and (min-width:750px) and (max-width:1100px){   /*Tablet*/
+
+    html {
+        background-color: rgb(36, 36, 36);
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+    
+    
+    .navbar {
+        display: inline-block;
+        text-align: center;
+        height: 100px;
+        width: 200px;
+        background-color: rgb(65, 7, 7);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        border: solid black 1px;
+        box-shadow: black 10px 10px 10px 10px;
+    }
+    
+    .navbar > a {
+        visibility: hidden;
+        color: white;
+        width: 150px;
+        border: solid black 1px;
+    }
+    
+    .navbar:hover {
+        width: 400px;
+        color: white;
+    }
+    
+    .navbar:hover > a {
+        background-color: #292926;
+        width: 150px;
+        visibility:inherit;
+        border: solid black 1px;
+        padding: 10px;
+    }
+    
+    header {
+        background-color: rgba(102, 95, 95, 0.801);
+    }
+    
+    #title-span {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        box-shadow: rgb(112, 1, 1) 5px 5px 5px;
+    }
+    
+    #title-span > img {
+        width: 400px;
+        height: 250px;
+        padding-top: 20px;
+    }
+    
+    #title-span > p {
+        font-size: 20px;
+        text-decoration: overline;
+    }
+    
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-bottom: rgba(102, 95, 95, 0.801) solid 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .product-img {
+        width: 350px;
+        height: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: black 2px solid;
+        padding: 1em;
+        box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+        background-color: rgb(12, 11, 11);
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-top: solid black 5px;
+    }
+    
+    .contactUs {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 4, 1fr;
+        justify-content: center;
+    }
+    
+    .contactUs > h3 {
+        text-decoration: underline;
+    }
+    
+    #contact1 {
+        grid-row: 1/2;
+    }
+    
+    #contact2{
+        grid-row: 2/3;
+    }
+    
+    #contact3{
+        grid-row: 3/4;
+    }
+    
+    #contact2{
+        grid-row: 4/5;
+    }
+    
+    
+    .aboutUs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(102, 95, 95, 0.801);
+        color: black;
+        box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+    }
+
+}
+
+@media only screen and (max-width:749px){ /*Mobile*/
+
+    html {
+        background-color: rgb(36, 36, 36);
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+    
+    
+    .navbar {
+        display: inline-block;
+        text-align: center;
+        height: 100px;
+        width: 200px;
+        background-color: rgb(65, 7, 7);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        border: solid black 1px;
+        box-shadow: black 10px 10px 10px 10px;
+    }
+    
+    .navbar > a {
+        visibility: hidden;
+        color: white;
+        width: 150px;
+        border: solid black 1px;
+    }
+    
+    .navbar:hover {
+        width: 400px;
+        color: white;
+    }
+    
+    .navbar:hover > a {
+        background-color: #292926;
+        width: 150px;
+        visibility:inherit;
+        border: solid black 1px;
+        padding: 10px;
+    }
+    
+    header {
+        background-color: rgba(102, 95, 95, 0.801);
+    }
+    
+    #title-span {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        box-shadow: rgb(112, 1, 1) 5px 5px 5px;
+    }
+    
+    #title-span > img {
+        width: 400px;
+        height: 250px;
+        padding-top: 20px;
+    }
+    
+    #title-span > p {
+        font-size: 20px;
+        text-decoration: overline;
+    }
+    
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-bottom: rgba(102, 95, 95, 0.801) solid 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .product-img {
+        width: 350px;
+        height: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: black 2px solid;
+        padding: 1em;
+        box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+        background-color: rgb(12, 11, 11);
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-top: solid black 5px;
+    }
+    
+    .contactUs {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 4, 1fr;
+        justify-content: center;
+    }
+    
+    .contactUs > h3 {
+        text-decoration: underline;
+    }
+    
+    #contact1 {
+        grid-row: 1/2;
+    }
+    
+    #contact2{
+        grid-row: 2/3;
+    }
+    
+    #contact3{
+        grid-row: 3/4;
+    }
+    
+    #contact2{
+        grid-row: 4/5;
+    }
+    
+    
+    .aboutUs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(102, 95, 95, 0.801);
+        color: black;
+        box-shadow: rgb(37, 3, 3) 10px 10px 10px;
+    }
+
+}
